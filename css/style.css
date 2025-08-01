@@ -81,7 +81,7 @@ main {
 
 /* Hero Section */
 .hero {
-    background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+    background-image: url('https://6370379.fs1.hubspotusercontent-na1.net/hubfs/6370379/BH_Newsletter_Assets/ChatGPT%20Image%20Aug%201%2c%202025%2c%2001_29_47%20PM.png');
     color: white;
     padding: 4rem 2rem;
     display: flex;
@@ -89,11 +89,15 @@ main {
     justify-content: center;
     text-align: center;
     min-height: 70vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .hero-content {
     max-width: 800px;
     animation: fadeInUp 1s ease-out;
+    background-color: rgba(255, 255, 255, 0.5);
 }
 
 .hero h1 {
